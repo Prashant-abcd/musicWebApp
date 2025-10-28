@@ -1,0 +1,35 @@
+<?php
+// Set the content type to JSON
+header('Content-Type: application/json');
+
+// Database credentials
+$servername = "localhost";
+$username = "root"; // Default XAMPP username
+$password = "";     // Default XAMPP password
+$dbname = "musicwebapp";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die(json_encode(['error' => 'Connection failed: ' . $conn->connect_error]));
+}
+
+// SQL to get all songs
+$sql = "SELECT id, title, artist, file_path, album_art_path FROM songs";
+$result = $conn->query($sql);
+
+$songs = [];
+if ($result->num_rows > 0) {
+    // Fetch all results into an associative array
+    while($row = $result->fetch_assoc()) {
+        $songs[] = $row;
+    }
+}
+
+// Output the songs as a JSON string
+echo json_encode($songs);
+
+$conn->close();
+?>

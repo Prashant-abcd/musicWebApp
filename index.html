@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+
+            <div class="home bg-gray rounded">
+                <div class="logo flex align-center">
+                    <img src="svgs/logo/lion-face-outlined-front-svgrepo-com.svg" alt="logo">
+                    VAP app
+                </div>
+                <!-- <ul>
+                    <li><img src="svgs/home/home-svgrepo-com.svg" alt="home">Home</li>
+                    <li><img src="svgs/search/search-alt-1-svgrepo-com.svg" alt="Search">Search</li>
+
+                </ul> -->
+            </div>
+
+
+
+            <div class="library bg-gray rounded p-1">
+                <div class="libraryHeading">
+                    <img src="svgs/genre/music-notes-svgrepo-com.svg" alt="">
+                    <h3>Login/Signup and explore a variety of genres</h3>
+                </div>
+
+                <div class="genereConatiner custom-scrollbar">
+                    <div class="genre">
+                        <img src="svgs/genre/microphone-svgrepo-com.svg" alt="">
+                        <span>pop</span>
+                    </div>
+
+
+                    <div class="genre">
+
+                        <img src="svgs/genre/guitar-instrument-electric-flying-v-svgrepo-com.svg" alt="">
+                        <span>Rock</span>
+                    </div>
+                    <div class="genre">
+
+                        <img src="svgs/genre/boombox-svgrepo-com.svg" alt=""> <span>Hip Hop</span>
+                    </div>
+                    <div class="genre">
+
+                        <img src="svgs/genre/keyboard-svgrepo-com.svg" alt=""> <span>Electronic</span>
+                    </div>
+                    <div class="genre">
+
+                        <img src="svgs/genre/saxophone-2-svgrepo-com.svg" alt=""><span>Jazz</span>
+                    </div>
+                    <div class="genre">
+
+                        <img src="svgs/genre/violin-1-svgrepo-com.svg" alt=""> <span>Classical</span>
+                    </div>
+                    <div class="genre">
+
+                        <img src="svgs/genre/folk-mandolin-svgrepo-com.svg" alt=""> Folf/Indie
+                    </div>
+                    <div class="genre">
+
+                        <img src="svgs/genre/old-round-microphone-svgrepo-com.svg" alt=""> <span>Soul</span>
+                    </div>
+                    <div class="genre">
+                        <img src="svgs/genre/coffee-cup-festival-svgrepo-com.svg" alt=""> <span>Lofi</span>
+                    </div>
+                    <div class="genre">
+                        <img src="svgs/genre/cowboy-hat-western-svgrepo-com.svg" alt=""> <span>Country</span>
+                    </div>
+
+                </div>
+                <div class="footer">
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/" data-encore-id="textLink" id="">
+                            <span data-encore-id="type">Legal</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/" data-encore-id="textLink" id="">
+                            <span data-encore-id="type">Safety &amp; Privacy Center</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/" data-encore-id="textLink" id="">
+                            <span data-encore-id="type">Privacy Policy</span>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" data-encore-id="textLink"
+                            id="">
+                            <span data-encore-id="type">About Ads</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/" data-encore-id="textLink" id="">
+                            <span data-encore-id="type">Accessibility</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a draggable="false" href="https://www.spotify.com/legal/cookies-policy/" target="_blank"
+                            rel="noopener">
+                            <span data-encore-id="text">Cookies</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- right portion -->
+
+        <!-- topright -->
+
+        <div class="right rounded">
+            <div class="header bg-gray rounded">
+                <!-- <div class="nav">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff"
+                        fill="none">
+                        <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#ffffff"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff"
+                        fill="none">
+                        <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#ffffff"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </div> -->
+                <div class="buttons ">
+                    <button class="signUpBtn">SignUP</button>
+                    <button class="loginBtn">Login</button>
+                </div>
+            </div>
+
+
+
+            <!-- playlist(bottom right) -->
+
+
+            <div class="playlist bg-gray custom-scrollbar">
+                <div class="popularArtistsRow">
+
+                    <div class="rowHeader">
+                        <h2>Popular Artists</h2>
+                        <div class="arrows">
+                            <img src="svgs/moveforwardandbackward/arrow-narrow-left-svgrepo-com.svg"
+                                onclick="moveBack1()" alt="" style="cursor: pointer;">
+                            <img src="svgs/moveforwardandbackward/arrow-narrow-right-svgrepo-com.svg" alt=""
+                                onclick="moveForward1()" style="cursor: pointer;">
+                        </div>
+                    </div>
+                    <div class="wrapper">
+                        <div class="cardContainer" id="cardContainer1">
+                            <!-- <div class="cardContainerBtnLeft1">
+
+                     </div> -->
+                            <div class="card">
+
+                                <img src="thumbnails/popularartists/alanwalker.jpg" alt="">
+
+                                <h2 style="font-size: 1.2rem;">Alan Walker</h2>
+
+                            </div>
+                            <div class="card">
+
+                                <img src="thumbnails/popularartists/ldr.jpg" alt="">
+
+                                <h2 style="font-size: 1.2rem;">Lana Del Ray</h2>
+
+                            </div>
+                            <div class="card">
+
+                                <img src="thumbnails/popularartists/taylor.jpg" alt="">
+
+                                <h2 style="font-size: 1.2rem;">Taylor Swift</h2>
+
+                            </div>
+                            <div class="card">
+
+                                <img src="thumbnails/popularartists/kendricklamar.jpg" alt="">
+
+                                <h2 style="font-size: 1.2rem;">Kendrick Lamar</h2>
+
+                            </div>
+                            <div class="card">
+
+                                <img src="thumbnails/popularartists/adele.jpg" alt="">
+
+                                <h2 style="font-size: 1.2rem;">Adele</h2>
+
+                            </div>
+                            <div class="card">
+
+                                <img src="thumbnails/popularartists/rihana.jpg" alt="">
+
+                                <h2 style="font-size: 1.2rem;">Rihana</h2>
+
+                            </div>
+                            <div class="card">
+
+                                <img src="thumbnails/popularartists/drake.jpg" alt="">
+
+                                <h2 style="font-size: 1.2rem;">Drake</h2>
+
+                            </div>
+                            <div class="card">
+
+                                <img src="thumbnails/popularartists/dualipa.jpg" alt="">
+
+                                <h2 style="font-size: 1.2rem;">Dua Lipa</h2>
+
+                            </div>
+
+
+
+
+                        </div>
+                        <!-- <div class="cardContainerBtnRight1" onclick="moveForward1()">
+
+                        </div> -->
+                    </div>
+                </div>
+
+                <!-- Trending -->
+
+                <div class="trendingRow">
+                    <div class="rowHeader">
+                        <h2>Trending</h2>
+                        <div class="arrows">
+                            <img src="svgs/moveforwardandbackward/arrow-narrow-left-svgrepo-com.svg"
+                                onclick="moveBack2()" alt="" style="cursor: pointer;">
+                            <img src="svgs/moveforwardandbackward/arrow-narrow-right-svgrepo-com.svg" alt=""
+                                onclick="moveForward2()" style="cursor: pointer;">
+                        </div>
+                    </div>
+                    <div class="wrapper">
+                        <div class="cardContainer" id="cardContainer2">
+                            <!-- <div class="cardContainerBtnLeft2">
+                        
+                     </div> -->
+                            <div class="card">
+
+                                <img src="thumbnails/trending/borntodie.jpeg" alt="">
+
+                                <h2 style="font-size: 1rem;">Born to die | Lana Del Ray</h2>
+                                <div class="cardButton">
+                                    <svg height="30px" width="30px" viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="50" cy="50" r="50" fill="#3be477" />
+
+                                        <polygon points="40,30 70,50 40,70" fill="black" />
+                                    </svg>
+                                </div>
+
+                            </div>
+                            <div class="card">
+
+                                <img src="thumbnails/trending/brooklynbaby.jpeg" alt="">
+
+                                <h2 style="font-size: 1rem;">Brooklyn Baby | Lana Del Ray</h2>
+                                <div class="cardButton">
+                                    <svg height="30px" width="30px" viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="50" cy="50" r="50" fill="#3be477" />
+
+                                        <polygon points="40,30 70,50 40,70" fill="black" />
+                                    </svg>
+                                </div>
+
+                            </div>
+                            <div class="card">
+
+                                <img src="thumbnails/trending/softcore.jpeg" alt="">
+
+                                <h2 style="font-size: 1.2rem;">Softcore | The neighbourhood</h2>
+                                <div class="cardButton">
+                                    <svg height="30px" width="30px" viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="50" cy="50" r="50" fill="#3be477" />
+
+                                        <polygon points="40,30 70,50 40,70" fill="black" />
+                                    </svg>
+                                </div>
+
+                            </div>
+                            <div class="card">
+
+                                <img src="thumbnails/trending/faded.jpeg" alt="">
+
+                                <h2 style="font-size: 1.2rem;">Faded | Alan Walker</h2>
+                                <div class="cardButton">
+                                    <svg height="30px" width="30px" viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="50" cy="50" r="50" fill="#3be477" />
+
+                                        <polygon points="40,30 70,50 40,70" fill="black" />
+                                    </svg>
+                                </div>
+
+                            </div>
+                            <div class="card">
+
+                                <img src="thumbnails/trending/sweetweather.jpeg" alt="">
+
+                                <h2 style="font-size: 1.2rem;">Sweet Weather | The neighbourhood</h2>
+                                <div class="cardButton">
+                                    <svg height="30px" width="30px" viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="50" cy="50" r="50" fill="#3be477" />
+
+                                        <polygon points="40,30 70,50 40,70" fill="black" />
+                                    </svg>
+                                </div>
+
+                            </div>
+                            <div class="card">
+
+                                <img src="thumbnails/trending/take me to church.jpeg" alt="">
+
+                                <h2 style="font-size: 1.2rem;">take me to church | hoitzer</h2>
+                                <div class="cardButton">
+                                    <svg height="30px" width="30px" viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="50" cy="50" r="50" fill="#3be477" />
+
+                                        <polygon points="40,30 70,50 40,70" fill="black" />
+                                    </svg>
+                                </div>
+
+                            </div>
+                            <div class="card">
+
+                                <img src="" alt="">
+
+                                <h2 style="font-size: 1.2rem;">Drake</h2>
+                                <div class="cardButton">
+                                    <svg height="30px" width="30px" viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="50" cy="50" r="50" fill="#3be477" />
+
+                                        <polygon points="40,30 70,50 40,70" fill="black" />
+                                    </svg>
+                                </div>
+
+                            </div>
+                            <div class="card">
+
+                                <img src="/‫" alt="">
+
+                                <h2 style="font-size: 1.2rem;">Dua Lipa</h2>
+                                <div class="cardButton">
+                                    <svg height="30px" width="30px" viewBox="0 0 100 100"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="50" cy="50" r="50" fill="#3be477" />
+
+                                        <polygon points="40,30 70,50 40,70" fill="black" />
+                                    </svg>
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+                        <!-- <div class="cardContainerBtnRight2" onclick="moveForward2()">
+
+                        </div> -->
+                    </div>
+                </div>
+
+
+                
+                <!-- playbar (inside playlist and below card container)-->
+
+
+                <div class="playbar">
+                    <div class="songinfo"></div>
+                    <div class="songbuttons">
+                        <img src="svgs/playbar/previous-svgrepo-com.svg" alt="">
+                        <img src="svgs/playbar/play-1003-svgrepo-com.svg" alt="">
+                        <img src="svgs/playbar/next-svgrepo-com.svg" alt="">
+                    </div>
+                    <div class="songtime"></div>
+                    <div class="songcontrols">
+                        <input type="range" class="progressbar" min="0" max="100" value="0">
+                        <img src="svgs/playbar/volume-up-svgrepo-com.svg" alt="Volume" class="mutetoggle">
+                        <input type="range" class="volumeslider" min="0" max="100" value="100">
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <div class="cardContainerForArtists custom-scrollbar">
+                <div class="goBackToPlaylist">
+                    <img src="svgs/moveforwardandbackward/arrow-narrow-left-svgrepo-com.svg" alt="">
+                </div>
+                <div class="container custom-scrollbar">
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+    <div class="signup" id="signup">
+        <div class="signupInput">
+            <div class="signupHeading">
+                <h2>sign up</h2>
+            </div>
+            <div class="signupCross">
+                <img src="svgs/signupCross/cross-svgrepo-com.svg" alt="">
+            </div>
+            <div class="signupForm">
+                <form action="">
+                    <label for="username">Username:</label>
+                    <input type="text" name="username" id="username" pattern="^[a-zA-Z_][a-zA-Z0-9_]{2,19}$"
+                        title="Username must be 3-20 characters, start with a letter or underscore, and contain only letters, numbers, or underscores."
+                        required>
+
+                    <label for="firstName">First name:</label>
+                    <input type="text" name="firstName" id="firstName" required>
+
+                    <label for="lastName">Last name:</label>
+                    <input type="text" name="lastName" id="lastName" required>
+
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" required minlength="8"
+                        title="Please make password atleast 8 characters long">
+
+                    <input type="submit" value="SignUp" class="signupBtn" id="signupBtn" required>
+                </form>
+            </div>
+        </div>
+        <div class="askGenre" id="askGenre">
+            <span>
+                Please help us build a perfect fyp for you.
+            </span>
+            <span>Select your favourite genres:</span>
+            <div class="signupgenrecontainer">
+                <div class="signupgenre">
+                    <input type="checkbox" name="lofi" id="lofi" value="lofi">
+                    <label for="lofi">Lofi</label>
+                </div>
+                <div class="signupgenre">
+                    <input type="checkbox" name="rock" id="rock" value="rock">
+                    <label for="rock">Rock</label>
+                </div>
+                <div class="signupgenre">
+                    <input type="checkbox" name="hiphop" id-hiphop value="hiphop">
+                    <label for="hiphop">Hip-Hop</label>
+                </div>
+                <div class="signupgenre">
+                    <input type="checkbox" name="country" id="country" value="country">
+                    <label for="country">Country</label>
+                </div>
+                <div class="signupgenre">
+                    <input type="checkbox" name="electronic" id="electronic" value="electronic">
+                    <label for="electronic">Electronic</label>
+                </div>
+                <div class="signupgenre">
+                    <input type="checkbox" name="folk" id="folk" value="folk">
+                    <label for="folk">Folk</label>
+                </div>
+                <div class="signupgenre">
+                    <input type="checkbox" name="jazz" id="jazz" value="jazz">
+                    <label for="jazz">Jazz</label>
+                </div>
+                <div class="signupgenre">
+                    <input type="checkbox" name="classical" id="classical" value="classical">
+                    <label for="classical">Classical</label>
+                </div>
+                <div class="signupgenre" id="signupgenre9">
+                    <input type="checkbox" name="soul" id="soul" value="soul">
+                    <label for="soul">Soul</label>
+                </div>
+                <div class="signupgenre" id="signupgenre10">
+                    <input type="checkbox" name="Pop" id="pop" value="pop">
+                    <label for="pop">Pop</label>
+                </div>
+            </div>
+
+            <div class="askgenrefooter">
+                <span>skip&gt;</span>
+                <button type="submit" value="Signup">Finish</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="login" id="login">
+        <div class="loginInput">
+            <div class="loginHeading">
+                <h2>Log In</h2>
+            </div>
+            <div class="loginCross">
+                <img src="svgs/signupCross/cross-svgrepo-com.svg" alt="Close">
+            </div>
+            <div class="loginForm">
+                <form action="" name="loginForm">
+                    <label for="loginUsername">Username:</label>
+                    <input type="text" name="username" id="loginUsername" pattern="^[a-zA-Z_][a-zA-Z0-9_]{2,19}$"
+                        title="Username must be 3-20 characters, start with a letter or underscore, and contain only letters, numbers, or underscores."
+                        required>
+
+                    <label for="loginPassword">Password:</label>
+                    <input type="password" name="password" id="loginPassword" required minlength="8"
+                        title="Password must be at least 8 characters long">
+
+                    <input type="submit" value="Log In" class="loginBtn" id="loginBtn" required>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>

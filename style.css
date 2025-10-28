@@ -1,0 +1,821 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Dosis:wght@200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+.left{
+    width: 25vw;
+    padding: 10px;
+    
+}
+.right{
+    width: 75vw;
+    
+    padding-top: 10px;
+    height: calc(100vh - 10px);
+}
+.container{
+    position: relative;
+    z-index: 1;
+}
+
+.home ul li{
+    display: flex;
+    list-style-type: none ;
+    width: 15px;
+    gap: 15px;
+    padding-top: 15px;
+    font-weight: bold;
+    
+}
+.home img{
+    width: 20px;
+}
+.logo img{
+    width: 50px;
+}
+.home{
+    padding: 10px;
+    height: 10vh;
+}
+.home ul{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.bg-gray{
+    background-color: #1f1f1f;
+    color: white;
+}
+.logo{
+    gap: 4px;
+    font-weight: 1000;
+}
+.rounded{
+    border-radius: 5px;
+}
+.library{
+    margin-top: 5px;
+    position: relative;
+    height: 77.2vh;
+    
+}
+.genereConatiner{
+    height: 48vh;
+    overflow-y: scroll;
+     margin-left: 20px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+.genre{
+    display: flex;
+    gap: 20px;
+   padding: 20px;
+   border-radius: 4px;
+   border-bottom: 0.5px solid #ffffff5b;
+   transition: background-color 0.2s ease-in-out;
+}
+.genre:hover{
+    background-color: #383636;
+    cursor: pointer;
+}
+.genreSeparator{
+    height: 1px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.genre img{
+    width: 25px;
+}
+.genre svg{
+    fill: #ffffff;
+}
+.libraryHeading{
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+}
+.libraryHeading img{
+    width: 25px;
+}
+.libraryHeading h3{
+    font-size: 1.1rem;
+}
+.footer{
+    margin-top: auto;
+    display: grid;
+    position: absolute;
+    bottom: 0;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-items: center;
+    align-items: center;
+    row-gap: 6px;
+    margin-bottom: 10px;
+    /* padding-top: 10px; */
+}
+.footer a{
+        display: block;
+        text-decoration: none;
+        color: gray;
+        font-size: 0.6rem;
+        
+}
+
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    
+}
+
+.header>*{
+    padding: 15px;
+}
+.header .buttons{
+    padding-left: 62vw;
+}
+.signUpBtn{
+    background-color: #1f1f1f;
+    border: none;
+    
+    color: rgb(176, 163, 163);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+.signUpBtn:hover{
+    font-size: 15px;
+    color: white;
+}
+.loginBtn{
+    border: none;
+    font-size: 14px;
+    border-radius: 15px;
+    padding: 10px;
+    width: 80px;
+}
+.loginBtn:hover{
+    font-weight: bold;
+    font-size: 15px;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+.rowHeader{
+    display: flex;
+    gap: 3vw;
+    align-items: center;
+    max-width: 80%;
+    margin-left: 30px;
+    position: relative;
+    z-index: 5; 
+}
+
+.playlist{
+    border-radius: 5px;
+    margin-top: 4px;
+    position: relative;
+    height: 85vh;
+    overflow-y: scroll;
+    padding-bottom: 100px;
+     box-sizing: border-box;/* This ensures the padding is included inside the 80vh height  */
+     display: block;
+}
+
+.arrows{
+    display: flex;
+    gap: 2vw;
+}
+.arrows img{
+    width: 30px;
+}
+.playlist .popularArtistsRow{
+    height: 370px;
+}
+.playlist .trendingRow{
+    height: 370px;
+}
+ .trendingRow{
+    margin-top: 0px;
+}
+.popularArtistsRow{
+    margin-top: 30px;
+}
+.popularArtistsRow>h2{
+    margin-left: 30px;
+}
+.trendingRow>h2{
+    margin-left: 30px;
+}
+.playlist .cardContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 92%;
+ 
+    align-items:flex-start;
+    transition: transform 0.5s ease-in-out;
+    margin-top: 30px;
+    /* margin-left: 11px; */
+    
+}
+.trendingRow .card{
+    cursor: default;
+}
+.wrapper{
+    display: flex;
+    height: 100%;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: visible;
+    margin: 15px;
+    margin-right: 0;
+    margin-top: 10px;
+    align-items: center;
+}
+
+
+.cardContainerForArtists{
+     border-radius: 5px;
+    margin-top: 4px;
+    position: relative;
+    height: 85vh;
+    
+    padding-bottom: 10px;
+     box-sizing: border-box;
+     display: flex;
+     flex-direction: column;
+     
+     background-color:#1f1f1f;
+    
+}
+.cardContainerForArtists img{
+    width: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.cardContainerForArtists .container{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    background-color: #1f1f1f;
+    height: 90%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.cardContainerForArtists{
+    display: none;
+}
+.cardContainerForArtists .container .card img{
+    padding-left: 0;
+}
+.cardContainerForArtists .container .card{
+    margin-top: 30px;
+}
+.card{
+    
+    width:160px;
+    flex-shrink: 0;
+    height:max-content;
+    padding: 10px;
+   position: relative;
+   border-radius: 6px;
+   transition: background-color 0.2s ease-in-out,
+                 transform 0.2s ease-in-out;
+}
+.card:nth-child(1){
+    margin-left: 10px;
+}
+.card:hover{
+    background-color: #383636;
+    transform: scale(1.13);
+    z-index: 3;
+        cursor: pointer;
+}
+.card:hover{
+    cursor: pointer;
+}
+.cardContainerBtnLeft2:hover{
+     background-color: rgba(128,128,128,0.7);
+}
+
+.card img{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+
+.card > *{
+    padding-top: 8px;
+}
+.card img{
+    padding-top: 0;
+}
+.cardButton svg{
+    width:40px;
+}
+.cardButton{
+    position: absolute;
+    top:107px;
+    padding: 0;
+    left: 138px;
+    opacity: 0.7;
+    transition: opacity 0.4s ease ;
+    
+}
+.cardButton .cardButtonImg{
+    cursor: pointer; 
+    transition: transform 0.5s ease;
+       
+}
+.cardButtonImg:hover{
+    transform: scale(1.1);
+}
+.cardButton:hover{
+    opacity: 1;
+}
+
+
+
+
+
+
+/* playbar */
+
+.playbar {
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+    background-color: #3be477;
+    width: 75vw;
+    height: 0; /* Initially hidden */
+    z-index: 10;
+    justify-content: flex-start;
+    border-radius: 1px;
+    overflow: hidden; /* Hide content when collapsed */
+    padding: 0;
+    transition: height 0.3s ease, padding 0.3s ease;
+}
+
+.playbar.visible {
+    height: 40px; /* Expanded height */
+    /* padding: 0 10px; */
+}
+
+.songbuttons {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease;
+}
+
+.playbar.visible .songbuttons {
+    opacity: 1;
+}
+
+.songbuttons img {
+    cursor: pointer;
+}
+
+.songbuttons img:nth-child(2) {
+    width: 20px;
+}
+.songbuttons img:nth-child(1) {
+    width: 20px;
+}
+.songbuttons img:nth-child(3) {
+    width: 20px;
+}
+
+.songinfo {
+    color: #1f1f1f;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    height: 100%;
+    width: 30%;
+    padding-left: 30px;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.1rem;
+    /* text-shadow:  1px 1px #1f1f1f; */
+}
+
+.playbar.visible .songinfo {
+    opacity: 1;
+}
+
+.songtime {
+    color: #1f1f1f;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    height: 100%;
+    width: max-content;
+    margin-left: 30px;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.playbar.visible .songtime {
+    opacity: 1;
+}
+
+.songcontrols {
+    display: flex;
+    align-items: center;
+    color: #1f1f1f;
+    width: 35%;
+    gap: 10px;
+    margin-left: 10px;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease;
+}
+
+.playbar.visible .songcontrols {
+    opacity: 1;
+}
+
+
+
+.volumeslider {
+    width: 30%;
+  
+}
+.progressbar{
+    width: 40%;
+    
+}
+
+
+
+
+.mutetoggle {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.songcontrols img {
+    height: 20px;
+    width: 20px;
+}
+
+.playbar input{
+    cursor: pointer;
+}
+
+
+.signup{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+.signupInput{
+    position: relative;
+    
+    height: 75vh;
+    width: 30vw;
+    background-color: black;
+    box-shadow: 0 0 200px rgba(0,0,0,0.7), 0 0 300px rgba(0,0,0,0.7),
+     0 0 300px rgba(0,0,0,0.8),0 0 300px rgba(0,0,0,0.8),0 0 300px rgba(0,0,0,0.8);
+}
+.signupHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    
+}
+.signupHeading h2{
+    font-size: 2rem;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7)
+                                  ;
+                
+}
+.signupForm{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.signupForm label{
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+                font-weight: 500;
+                font-size: 1.1rem;
+}
+
+.signupForm form{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    row-gap: 20px;
+    column-gap: 5px;
+    width: 80%;
+    justify-items: center;
+    align-items: center;
+}
+.signupForm input {
+        height: 35px;
+        width: 80%;
+        font-weight: 500;
+        background-color: #1f1f1f;
+        border: none;
+        color: white;
+        border-radius: 4px;
+}
+.signupForm input[type="submit"]{
+    grid-column: span 2;
+    width: 50%;
+}
+#signupBtn{
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.signupBtn:hover{
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+}
+.signupCross img{
+    width: 30px;
+    position: absolute;
+    top: 5px;
+    left: calc(100% - 35px);
+}
+.signupCross img:hover{
+   
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.login{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+.loginInput{
+    position: relative;
+    
+    height: 65vh;
+    width: 30vw;
+    background-color: black;
+    box-shadow: 0 0 200px rgba(0,0,0,0.7), 0 0 300px rgba(0,0,0,0.7),
+     0 0 300px rgba(0,0,0,0.8),0 0 300px rgba(0,0,0,0.8),0 0 300px rgba(0,0,0,0.8);
+}
+.loginHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    
+}
+.loginHeading h2{
+    font-size: 2rem;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7)
+                                  ;
+                
+}
+.loginForm{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.loginForm label{
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+                font-weight: 500;
+                font-size: 1.1rem;
+}
+
+.loginForm form{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    row-gap: 40px;
+    column-gap: 5px;
+    width: 80%;
+    grid-auto-rows: min-content;
+    justify-items: center;
+    align-items: center;
+}
+.loginForm input {
+        height: 35px;
+        width: 80%;
+        font-weight: 500;
+        background-color: #1f1f1f;
+        border: none;
+        color: white;
+        border-radius: 4px;
+}
+.loginForm input[type="submit"]{
+    grid-column: span 2;
+    width: 50%;
+}
+#loginBtn{
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.loginBtn:hover{
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+}
+.loginCross img{
+    width: 30px;
+    position: absolute;
+    top: 5px;
+    left: calc(100% - 35px);
+}
+.loginCross img:hover{
+   
+    cursor: pointer;
+}
+
+
+.askGenre{
+    position: relative;
+    height: 75vh;
+    width: 30vw;
+    background-color: black;
+    box-shadow: 0 0 200px rgba(0,0,0,0.7), 0 0 300px rgba(0,0,0,0.7),
+     0 0 300px rgba(0,0,0,0.8),0 0 300px rgba(0,0,0,0.8),0 0 300px rgba(0,0,0,0.8);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+    
+}
+.askGenre>span:nth-child(1){
+    font-size: 1.5rem;
+   margin-top: 60px;
+   line-break: 10rem;
+   font-weight: 600;
+
+}
+.askGenre>span:nth-child(2){
+    font-size: 1.4rem;
+   line-break: 10rem;
+   font-weight: 500;
+   margin-top: 20px;
+
+}
+.askGenre span{
+    text-shadow: 0 0 2px white;
+}
+.signupgenre{
+    display: flex;
+    gap: 5px;
+    border-radius: 4px;
+    width: 100%;
+    padding-top: 3px;
+    padding-bottom: 7px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    text-shadow: 0 0 2px white;
+}
+.signupgenrecontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.signupgenre input,label{
+    cursor: pointer;
+    
+}
+.askgenrefooter{
+    display: flex;
+   width: 100%;
+   justify-content: flex-end;
+   gap: 10px;
+   align-items: center;
+   height: 10%; 
+   margin-top: 30px;
+}
+.askgenrefooter button{
+    height: 90%;
+    width: 20%;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+.askgenrefooter button:hover{
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 0 4px white;
+    transform: scale(1.05);
+}
+.askgenrefooter span{
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.askgenrefooter span:hover{
+    text-shadow: 0 0 4px white;
+    transform: scale(1.1);
+}
+
+
+#signupgenre9{
+    grid-column: span 2;
+}
+#signupgenre10{
+    grid-column: span 2;
+}
+
+.signupgenre input:checked + label {
+    font-weight: bold; /* Bold label when checked */
+}
+.signupgenre input:checked {
+    accent-color: #3be477; /* Match your app’s green theme */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 12px;
+    background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(128,128,128,0.2);
+}
+
+
+.custom-scrollbar::-webkit-scrollbar-button:single-button {
+    display: none;
+    background: none;
+    height: 0;
+    width: 0;
+}

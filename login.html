@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="profileSection">
+            <div class="userProfile">
+                <img src="thumbnails/userpfp/profile-plus-round-1343-svgrepo-com.svg" alt="userpfp">
+                <h2>username</h2>
+            </div>
+            <div class="search profileElement">
+                <img src="thumbnails/profileElements/search-alt-2-svgrepo-com.svg" alt="">
+                <input type="search" placeholder="Enter song name" id="searchInput">
+            </div>
+            <div class=" profileElement myuploads">
+                <img src="thumbnails/profileElements/upload-track-2-svgrepo-com.svg" alt="">
+                <span>My uploads</span>
+            </div>
+            <div class=" profileElement favourite">
+                <img src="thumbnails/profileElements/heart-svgrepo-com.svg" alt="">
+                <span>Favourites</span>
+            </div>
+
+            <div class="profileElement genrelist">
+                <img src="svgs/genrelist/list-music-svgrepo-com.svg" alt="">
+                <label for="genre">Genres:</label>
+                <select id="genre" name="genre" >
+                    <option value="" disabled selected hidden>Select a genre</option>
+                    <option value="lofi">Lofi</option>
+                    <option value="pop">Pop</option>
+                    <option value="hiphop">Hip Hop</option>
+                    <option value="folk">Folk / Indie</option>
+                    <option value="classical">Classical</option>
+                    <option value="electronic">Electronic</option>
+                    <option value="jazz">Jazz</option>
+                    <option value="soul">Soul</option>
+                    <option value="country">Country</option>
+                    <option value="rock">Rock</option>
+                </select>
+
+            </div>
+            <div class="profileElement logout">
+                <img src="svgs/logout/left-2-svgrepo-com.svg" alt="">
+                <span>Logout</span>
+            </div>
+        </div>
+        <div class="fyp custom-scrollbar">
+            <div class="fypCard">
+                <div class="fypcardimg">
+                    <img src="thumbnails/trending/borntodie.jpeg" alt="">
+                    <div class="cardBtn">
+                        <img src="svgs/cardplaybutton/cardplaybutton.svg" alt="">
+                    </div>
+                    <div class="favIcon">
+                        <img src="svgs/favIcons/whiteHeart.svg" alt="">
+                    </div>
+                    
+                        <img src="svgs/delete/delete-1487-svgrepo-com.svg" alt="">
+                    
+                </div>
+                <h2>Born to die | Lana Del Ray</h2>
+            </div>
+
+        </div>
+        <div class="favourites custom-scrollbar">
+             <div class="favouritesHeader">
+                <img class="gobacktofyp" style="margin-right: 100px;" src="svgs/moveforwardandbackward/arrow-narrow-left-svgrepo-com.svg" alt="">
+
+             </div>
+             <div class="favouritesCardsContainer custom-scrollbar">
+
+             </div>
+        </div>
+        <div class="userUploads custom-scrollbar">
+             <div class="userUploadsHeader">
+                <img class="gobacktofyp" style="margin-right: 100px;" src="svgs/moveforwardandbackward/arrow-narrow-left-svgrepo-com.svg" alt="">
+                <h3 style="color: white;">Upload </h3>
+                <img  class="uploadimg" src="svgs/plus/plus-large-svgrepo-com.svg" alt="plus">
+             </div>
+             <div class="userCardsContainer custom-scrollbar">
+
+             </div>
+        </div>
+         <div class="genreSongs custom-scrollbar">
+             <div class="genreSongsHeader">
+                <img class="gobacktofyp" style="margin-right: 100px;" src="svgs/moveforwardandbackward/arrow-narrow-left-svgrepo-com.svg" alt="">
+
+             </div>
+             <div class="genreSongsCardsContainer custom-scrollbar">
+
+             </div>
+        </div>
+        <div class="playbar">
+            <div class="songinfo"></div>
+            <div class="songbuttons">
+                <img src="svgs/playbar/previous-svgrepo-com.svg" alt="">
+                <img src="svgs/playbar/play-1003-svgrepo-com.svg" alt="">
+                <img src="svgs/playbar/next-svgrepo-com.svg" alt="">
+            </div>
+            <div class="songtime"></div>
+            <div class="songcontrols">
+                <input type="range" class="progressbar" min="0" max="100" value="0">
+                <img src="svgs/playbar/volume-up-svgrepo-com.svg" alt="Volume" class="mutetoggle">
+                <input type="range" class="volumeslider" min="0" max="100" value="100">
+            </div>
+        </div>
+
+    </div>
+    <div class="logoutConfirmation ">
+        <div class="box">
+            <span>you sure?</span>
+            <div class="buttonContainer">
+                <button>yes</button>
+                <button>no</button>
+            </div>
+        </div>
+    </div>
+    <div class="deleteConfirmation ">
+        <div class="box">
+            <span>you sure?</span>
+            <div class="buttonContainer">
+                <button>yes</button>
+                <button>no</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- userupload form written after main  -->
+    <div class="signup" id="signup">
+        <div class="signupInput">
+            <div class="signupHeading">
+                <h2>Upload song</h2>
+            </div>
+            <div class="signupCross">
+                <img src="svgs/signupCross/cross-svgrepo-com.svg" alt="">
+            </div>
+            <div class="signupForm">
+                <form action="" name="userUploadForm" enctype="multipart/form-data">
+                    <label for="songTitle">Song title:</label>
+                    <input type="text" name="songTitle" id="songTitle" pattern="[a-zA-z]{3,30}"
+                        title="song title must be 3-30 characters, consisting of alphabets(uppercase or lowercase)"
+                        required>
+                    <label for="genre">Song genre:</label>
+                    <select name="genre" id="genre">
+                    <option value="" disabled selected hidden>Select a genre</option>
+                    <option value="lofi">Lofi</option>
+                    <option value="pop">Pop</option>
+                    <option value="hiphop">Hip Hop</option>
+                    <option value="folk">Folk / Indie</option>
+                    <option value="classical">Classical</option>
+                    <option value="electronic">Electronic</option>
+                    <option value="jazz">Jazz</option>
+                    <option value="soul">Soul</option>
+                    <option value="country">Country</option>
+                    <option value="rock">Rock</option>
+                    </select>
+                    <label for="songFile">Upload song file(.mp3 or .mpeg):</label>
+
+                    <input type="file" accept=".mp3, .mpeg" name="songFile" class="songFile"required>
+                    <label for="songFile">Upload song thumbnail(.jpg or .jpeg):</label>
+                    <input type="file" accept=".jpeg, .jpg" name="songThumbnailFile" class="songThumbnailFile" required >
+                    <input type="submit" value="Upload" id="uploadBtn">
+                </form>
+            </div>
+        </div>
+
+
+
+    <script src="login.js">
+
+    </script>
+</body>
+
+</html>
