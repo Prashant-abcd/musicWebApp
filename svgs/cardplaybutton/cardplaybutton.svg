@@ -1,6 +1,3 @@
-<svg height="30px" width="30px" viewBox="0 0 100 100"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <circle cx="50" cy="50" r="50" fill="#3be477" />
-
-                                        <polygon points="40,30 70,50 40,70" fill="black" />
-                                    </svg>
+version https://git-lfs.github.com/spec/v1
+oid sha256:821e9424d73f2759ef8237fbf42fa5a62710183aad43c3ba6629db97f054b0a2
+size 359
