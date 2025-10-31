@@ -2606,3 +2606,343 @@
 2025-10-30 15:28:51: Song is not favorited
 2025-10-30 15:28:51: check_favourite - Received songTitle: 'Für Elise', username: 'Prashant_01'
 2025-10-30 15:28:51: Song is not favorited
+2025-10-31 04:27:50: check_favourite - Received songTitle: 'Sicko Mode', username: 'Prashant02'
+2025-10-31 04:27:50: Song is not favorited
+2025-10-31 04:27:50: check_favourite - Received songTitle: 'Love Story', username: 'Prashant02'
+2025-10-31 04:27:50: Song is not favorited
+2025-10-31 04:27:50: check_favourite - Received songTitle: 'Renegade', username: 'Prashant02'
+2025-10-31 04:27:50: Song is not favorited
+2025-10-31 04:27:50: check_favourite - Received songTitle: 'Earned It', username: 'Prashant02'
+2025-10-31 04:27:50: Song is not favorited
+2025-10-31 04:27:50: check_favourite - Received songTitle: 'West Coast', username: 'Prashant02'
+2025-10-31 04:27:50: Song is not favorited
+2025-10-31 04:27:50: check_favourite - Received songTitle: 'Blinding Lights', username: 'Prashant02'
+2025-10-31 04:27:50: Song is not favorited
+2025-10-31 04:27:50: check_favourite - Received songTitle: 'Candy Necklace ', username: 'Prashant02'
+2025-10-31 04:27:50: Song is not favorited
+2025-10-31 04:27:50: check_favourite - Received songTitle: 'Cardigan', username: 'Prashant02'
+2025-10-31 04:27:50: Song is not favorited
+2025-10-31 04:27:50: check_favourite - Received songTitle: 'Circles', username: 'Prashant02'
+2025-10-31 04:27:50: Song is not favorited
+2025-10-31 04:27:50: check_favourite - Received songTitle: 'Für Elise', username: 'Prashant02'
+2025-10-31 04:27:50: Song is not favorited
+2025-10-31 04:27:50: check_favourite - Received songTitle: 'im closing my eyes', username: 'Prashant02'
+2025-10-31 04:27:50: Song is not favorited
+2025-10-31 04:30:51: check_favourite - Received songTitle: 'Sicko Mode', username: 'Prashant02'
+2025-10-31 04:30:51: Song is not favorited
+2025-10-31 04:30:51: check_favourite - Received songTitle: 'Love Story', username: 'Prashant02'
+2025-10-31 04:30:51: Song is not favorited
+2025-10-31 04:30:51: check_favourite - Received songTitle: 'Renegade', username: 'Prashant02'
+2025-10-31 04:30:51: Song is not favorited
+2025-10-31 04:30:51: check_favourite - Received songTitle: 'Earned It', username: 'Prashant02'
+2025-10-31 04:30:51: Song is not favorited
+2025-10-31 04:30:52: check_favourite - Received songTitle: 'West Coast', username: 'Prashant02'
+2025-10-31 04:30:52: Song is not favorited
+2025-10-31 04:30:52: check_favourite - Received songTitle: 'Blinding Lights', username: 'Prashant02'
+2025-10-31 04:30:52: Song is not favorited
+2025-10-31 04:30:52: check_favourite - Received songTitle: 'Candy Necklace ', username: 'Prashant02'
+2025-10-31 04:30:52: Song is not favorited
+2025-10-31 04:30:52: check_favourite - Received songTitle: 'Cardigan', username: 'Prashant02'
+2025-10-31 04:30:52: Song is not favorited
+2025-10-31 04:30:52: check_favourite - Received songTitle: 'Circles', username: 'Prashant02'
+2025-10-31 04:30:52: Song is not favorited
+2025-10-31 04:30:52: check_favourite - Received songTitle: 'Für Elise', username: 'Prashant02'
+2025-10-31 04:30:52: Song is not favorited
+2025-10-31 04:30:52: check_favourite - Received songTitle: 'im closing my eyes', username: 'Prashant02'
+2025-10-31 04:30:52: Song is not favorited
+2025-10-31 04:30:53: toggle_favourite - Received songTitle: 'Sicko Mode', username: 'Prashant02'
+2025-10-31 04:30:53: Added to favourites: success
+2025-10-31 04:30:53: get_favourite_songs - Fetching favorites for username: 'Prashant02'
+2025-10-31 04:30:53: Fetched 1 favorite songs
+2025-10-31 04:30:53: check_favourite - Received songTitle: 'Sicko Mode', username: 'Prashant02'
+2025-10-31 04:30:53: Song is favorited
+2025-10-31 04:30:53: check_favourite - Received songTitle: 'Sicko Mode', username: 'Prashant02'
+2025-10-31 04:30:53: Song is favorited
+2025-10-31 04:30:53: check_favourite - Received songTitle: 'Love Story', username: 'Prashant02'
+2025-10-31 04:30:53: Song is not favorited
+2025-10-31 04:30:53: check_favourite - Received songTitle: 'Renegade', username: 'Prashant02'
+2025-10-31 04:30:53: Song is not favorited
+2025-10-31 04:30:53: check_favourite - Received songTitle: 'Earned It', username: 'Prashant02'
+2025-10-31 04:30:53: Song is not favorited
+2025-10-31 04:30:53: check_favourite - Received songTitle: 'West Coast', username: 'Prashant02'
+2025-10-31 04:30:53: Song is not favorited
+2025-10-31 04:30:54: check_favourite - Received songTitle: 'Blinding Lights', username: 'Prashant02'
+2025-10-31 04:30:54: Song is not favorited
+2025-10-31 04:30:54: check_favourite - Received songTitle: 'Candy Necklace ', username: 'Prashant02'
+2025-10-31 04:30:54: Song is not favorited
+2025-10-31 04:30:54: check_favourite - Received songTitle: 'Cardigan', username: 'Prashant02'
+2025-10-31 04:30:54: Song is not favorited
+2025-10-31 04:30:54: check_favourite - Received songTitle: 'Circles', username: 'Prashant02'
+2025-10-31 04:30:54: Song is not favorited
+2025-10-31 04:30:54: check_favourite - Received songTitle: 'Für Elise', username: 'Prashant02'
+2025-10-31 04:30:54: Song is not favorited
+2025-10-31 04:30:54: check_favourite - Received songTitle: 'im closing my eyes', username: 'Prashant02'
+2025-10-31 04:30:54: Song is not favorited
+2025-10-31 04:32:09: check_favourite - Received songTitle: 'Love Story', username: 'Prashant02'
+2025-10-31 04:32:09: Song is not favorited
+2025-10-31 04:32:09: check_favourite - Received songTitle: 'im closing my eyes', username: 'Prashant02'
+2025-10-31 04:32:09: Song is not favorited
+2025-10-31 04:32:10: check_favourite - Received songTitle: 'Love Story', username: 'Prashant02'
+2025-10-31 04:32:10: Song is not favorited
+2025-10-31 04:32:12: get_favourite_songs - Fetching favorites for username: 'Prashant02'
+2025-10-31 04:32:12: Fetched 1 favorite songs
+2025-10-31 04:32:12: check_favourite - Received songTitle: 'Sicko Mode', username: 'Prashant02'
+2025-10-31 04:32:12: Song is favorited
+2025-10-31 04:32:16: check_favourite - Received songTitle: 'Sicko Mode', username: 'Prashant02'
+2025-10-31 04:32:16: Song is favorited
+2025-10-31 04:32:16: check_favourite - Received songTitle: 'Love Story', username: 'Prashant02'
+2025-10-31 04:32:16: Song is not favorited
+2025-10-31 04:32:16: check_favourite - Received songTitle: 'Renegade', username: 'Prashant02'
+2025-10-31 04:32:16: Song is not favorited
+2025-10-31 04:32:16: check_favourite - Received songTitle: 'Earned It', username: 'Prashant02'
+2025-10-31 04:32:16: Song is not favorited
+2025-10-31 04:32:16: check_favourite - Received songTitle: 'West Coast', username: 'Prashant02'
+2025-10-31 04:32:16: Song is not favorited
+2025-10-31 04:32:16: check_favourite - Received songTitle: 'Blinding Lights', username: 'Prashant02'
+2025-10-31 04:32:16: Song is not favorited
+2025-10-31 04:32:16: check_favourite - Received songTitle: 'Candy Necklace ', username: 'Prashant02'
+2025-10-31 04:32:16: Song is not favorited
+2025-10-31 04:32:16: check_favourite - Received songTitle: 'Cardigan', username: 'Prashant02'
+2025-10-31 04:32:16: Song is not favorited
+2025-10-31 04:32:16: check_favourite - Received songTitle: 'Circles', username: 'Prashant02'
+2025-10-31 04:32:16: Song is not favorited
+2025-10-31 04:32:16: check_favourite - Received songTitle: 'Für Elise', username: 'Prashant02'
+2025-10-31 04:32:16: Song is not favorited
+2025-10-31 04:32:16: check_favourite - Received songTitle: 'im closing my eyes', username: 'Prashant02'
+2025-10-31 04:32:16: Song is not favorited
+2025-10-31 04:32:18: check_favourite - Received songTitle: 'Sicko Mode', username: 'Prashant02'
+2025-10-31 04:32:18: Song is favorited
+2025-10-31 04:32:18: check_favourite - Received songTitle: 'Love Story', username: 'Prashant02'
+2025-10-31 04:32:18: Song is not favorited
+2025-10-31 04:32:18: check_favourite - Received songTitle: 'West Coast', username: 'Prashant02'
+2025-10-31 04:32:18: Song is not favorited
+2025-10-31 04:32:18: check_favourite - Received songTitle: 'Blinding Lights', username: 'Prashant02'
+2025-10-31 04:32:18: Song is not favorited
+2025-10-31 04:32:18: check_favourite - Received songTitle: 'Circles', username: 'Prashant02'
+2025-10-31 04:32:18: Song is not favorited
+2025-10-31 04:32:18: check_favourite - Received songTitle: 'Für Elise', username: 'Prashant02'
+2025-10-31 04:32:18: Song is not favorited
+2025-10-31 04:32:18: check_favourite - Received songTitle: 'im closing my eyes', username: 'Prashant02'
+2025-10-31 04:32:18: Song is not favorited
+2025-10-31 04:32:19: check_favourite - Received songTitle: 'Sicko Mode', username: 'Prashant02'
+2025-10-31 04:32:19: Song is favorited
+2025-10-31 04:32:19: check_favourite - Received songTitle: 'im closing my eyes', username: 'Prashant02'
+2025-10-31 04:32:19: Song is not favorited
+2025-10-31 04:32:20: check_favourite - Received songTitle: 'Sicko Mode', username: 'Prashant02'
+2025-10-31 04:32:20: Song is favorited
+2025-10-31 04:32:23: check_favourite - Received songTitle: 'Sicko Mode', username: 'Prashant02'
+2025-10-31 04:32:23: Song is favorited
+2025-10-31 04:32:23: check_favourite - Received songTitle: 'Love Story', username: 'Prashant02'
+2025-10-31 04:32:23: Song is not favorited
+2025-10-31 04:32:23: check_favourite - Received songTitle: 'Renegade', username: 'Prashant02'
+2025-10-31 04:32:23: Song is not favorited
+2025-10-31 04:32:23: check_favourite - Received songTitle: 'Earned It', username: 'Prashant02'
+2025-10-31 04:32:23: Song is not favorited
+2025-10-31 04:32:23: check_favourite - Received songTitle: 'West Coast', username: 'Prashant02'
+2025-10-31 04:32:23: Song is not favorited
+2025-10-31 04:32:23: check_favourite - Received songTitle: 'Blinding Lights', username: 'Prashant02'
+2025-10-31 04:32:23: Song is not favorited
+2025-10-31 04:32:23: check_favourite - Received songTitle: 'Candy Necklace ', username: 'Prashant02'
+2025-10-31 04:32:23: Song is not favorited
+2025-10-31 04:32:23: check_favourite - Received songTitle: 'Cardigan', username: 'Prashant02'
+2025-10-31 04:32:23: Song is not favorited
+2025-10-31 04:32:23: check_favourite - Received songTitle: 'Circles', username: 'Prashant02'
+2025-10-31 04:32:23: Song is not favorited
+2025-10-31 04:32:23: check_favourite - Received songTitle: 'Für Elise', username: 'Prashant02'
+2025-10-31 04:32:23: Song is not favorited
+2025-10-31 04:32:23: check_favourite - Received songTitle: 'im closing my eyes', username: 'Prashant02'
+2025-10-31 04:32:23: Song is not favorited
+2025-10-31 04:40:52: check_favourite - Received songTitle: 'Renegade', username: 'Prashant_01'
+2025-10-31 04:40:52: Song is favorited
+2025-10-31 04:40:52: check_favourite - Received songTitle: 'im closing my eyes', username: 'Prashant_01'
+2025-10-31 04:40:52: Song is favorited
+2025-10-31 04:40:52: check_favourite - Received songTitle: 'Earned It', username: 'Prashant_01'
+2025-10-31 04:40:52: Song is favorited
+2025-10-31 04:40:52: check_favourite - Received songTitle: 'West Coast', username: 'Prashant_01'
+2025-10-31 04:40:52: Song is not favorited
+2025-10-31 04:40:52: check_favourite - Received songTitle: 'Blinding Lights', username: 'Prashant_01'
+2025-10-31 04:40:52: Song is not favorited
+2025-10-31 04:40:52: check_favourite - Received songTitle: 'Candy Necklace ', username: 'Prashant_01'
+2025-10-31 04:40:52: Song is not favorited
+2025-10-31 04:40:52: check_favourite - Received songTitle: 'Sicko Mode', username: 'Prashant_01'
+2025-10-31 04:40:52: Song is not favorited
+2025-10-31 04:40:52: check_favourite - Received songTitle: 'Cardigan', username: 'Prashant_01'
+2025-10-31 04:40:52: Song is not favorited
+2025-10-31 04:40:52: check_favourite - Received songTitle: 'Circles', username: 'Prashant_01'
+2025-10-31 04:40:52: Song is not favorited
+2025-10-31 04:40:52: check_favourite - Received songTitle: 'Love Story', username: 'Prashant_01'
+2025-10-31 04:40:52: Song is not favorited
+2025-10-31 04:40:52: check_favourite - Received songTitle: 'Für Elise', username: 'Prashant_01'
+2025-10-31 04:40:52: Song is not favorited
+2025-10-31 04:40:56: get_favourite_songs - Fetching favorites for username: 'Prashant_01'
+2025-10-31 04:40:56: Fetched 3 favorite songs
+2025-10-31 04:40:56: check_favourite - Received songTitle: 'Earned It', username: 'Prashant_01'
+2025-10-31 04:40:56: Song is favorited
+2025-10-31 04:40:56: check_favourite - Received songTitle: 'im closing my eyes', username: 'Prashant_01'
+2025-10-31 04:40:56: Song is favorited
+2025-10-31 04:40:56: check_favourite - Received songTitle: 'Renegade', username: 'Prashant_01'
+2025-10-31 04:40:56: Song is favorited
+2025-10-31 04:40:57: check_favourite - Received songTitle: 'Renegade', username: 'Prashant_01'
+2025-10-31 04:40:57: Song is favorited
+2025-10-31 04:40:57: check_favourite - Received songTitle: 'im closing my eyes', username: 'Prashant_01'
+2025-10-31 04:40:57: Song is favorited
+2025-10-31 04:40:57: check_favourite - Received songTitle: 'Earned It', username: 'Prashant_01'
+2025-10-31 04:40:57: Song is favorited
+2025-10-31 04:40:57: check_favourite - Received songTitle: 'West Coast', username: 'Prashant_01'
+2025-10-31 04:40:57: Song is not favorited
+2025-10-31 04:40:57: check_favourite - Received songTitle: 'Blinding Lights', username: 'Prashant_01'
+2025-10-31 04:40:57: Song is not favorited
+2025-10-31 04:40:57: check_favourite - Received songTitle: 'Candy Necklace ', username: 'Prashant_01'
+2025-10-31 04:40:57: Song is not favorited
+2025-10-31 04:40:57: check_favourite - Received songTitle: 'Sicko Mode', username: 'Prashant_01'
+2025-10-31 04:40:57: Song is not favorited
+2025-10-31 04:40:57: check_favourite - Received songTitle: 'Cardigan', username: 'Prashant_01'
+2025-10-31 04:40:57: Song is not favorited
+2025-10-31 04:40:57: check_favourite - Received songTitle: 'Circles', username: 'Prashant_01'
+2025-10-31 04:40:57: Song is not favorited
+2025-10-31 04:40:57: check_favourite - Received songTitle: 'Love Story', username: 'Prashant_01'
+2025-10-31 04:40:57: Song is not favorited
+2025-10-31 04:40:57: check_favourite - Received songTitle: 'Für Elise', username: 'Prashant_01'
+2025-10-31 04:40:57: Song is not favorited
+2025-10-31 04:40:59: check_favourite - Received songTitle: 'Renegade', username: 'Prashant_01'
+2025-10-31 04:40:59: Song is favorited
+2025-10-31 04:41:01: check_favourite - Received songTitle: 'Renegade', username: 'Prashant_01'
+2025-10-31 04:41:01: Song is favorited
+2025-10-31 04:41:01: check_favourite - Received songTitle: 'im closing my eyes', username: 'Prashant_01'
+2025-10-31 04:41:01: Song is favorited
+2025-10-31 04:41:01: check_favourite - Received songTitle: 'Earned It', username: 'Prashant_01'
+2025-10-31 04:41:01: Song is favorited
+2025-10-31 04:41:01: check_favourite - Received songTitle: 'West Coast', username: 'Prashant_01'
+2025-10-31 04:41:01: Song is not favorited
+2025-10-31 04:41:01: check_favourite - Received songTitle: 'Blinding Lights', username: 'Prashant_01'
+2025-10-31 04:41:01: Song is not favorited
+2025-10-31 04:41:01: check_favourite - Received songTitle: 'Candy Necklace ', username: 'Prashant_01'
+2025-10-31 04:41:01: Song is not favorited
+2025-10-31 04:41:01: check_favourite - Received songTitle: 'Sicko Mode', username: 'Prashant_01'
+2025-10-31 04:41:01: Song is not favorited
+2025-10-31 04:41:01: check_favourite - Received songTitle: 'Cardigan', username: 'Prashant_01'
+2025-10-31 04:41:01: Song is not favorited
+2025-10-31 04:41:01: check_favourite - Received songTitle: 'Circles', username: 'Prashant_01'
+2025-10-31 04:41:01: Song is not favorited
+2025-10-31 04:41:01: check_favourite - Received songTitle: 'Love Story', username: 'Prashant_01'
+2025-10-31 04:41:01: Song is not favorited
+2025-10-31 04:41:02: check_favourite - Received songTitle: 'Für Elise', username: 'Prashant_01'
+2025-10-31 04:41:02: Song is not favorited
+2025-10-31 04:41:03: check_favourite - Received songTitle: 'Sicko Mode', username: 'Prashant_01'
+2025-10-31 04:41:03: Song is not favorited
+2025-10-31 04:41:04: check_favourite - Received songTitle: 'Sicko Mode', username: 'Prashant_01'
+2025-10-31 04:41:04: Song is not favorited
+2025-10-31 04:41:11: check_favourite - Received songTitle: 'Renegade', username: 'Prashant_01'
+2025-10-31 04:41:11: Song is favorited
+2025-10-31 04:41:11: check_favourite - Received songTitle: 'im closing my eyes', username: 'Prashant_01'
+2025-10-31 04:41:11: Song is favorited
+2025-10-31 04:41:11: check_favourite - Received songTitle: 'Earned It', username: 'Prashant_01'
+2025-10-31 04:41:11: Song is favorited
+2025-10-31 04:41:11: check_favourite - Received songTitle: 'West Coast', username: 'Prashant_01'
+2025-10-31 04:41:11: Song is not favorited
+2025-10-31 04:41:11: check_favourite - Received songTitle: 'Blinding Lights', username: 'Prashant_01'
+2025-10-31 04:41:11: Song is not favorited
+2025-10-31 04:41:11: check_favourite - Received songTitle: 'Candy Necklace ', username: 'Prashant_01'
+2025-10-31 04:41:11: Song is not favorited
+2025-10-31 04:41:11: check_favourite - Received songTitle: 'Sicko Mode', username: 'Prashant_01'
+2025-10-31 04:41:11: Song is not favorited
+2025-10-31 04:41:11: check_favourite - Received songTitle: 'Cardigan', username: 'Prashant_01'
+2025-10-31 04:41:11: Song is not favorited
+2025-10-31 04:41:11: check_favourite - Received songTitle: 'Circles', username: 'Prashant_01'
+2025-10-31 04:41:11: Song is not favorited
+2025-10-31 04:41:11: check_favourite - Received songTitle: 'Love Story', username: 'Prashant_01'
+2025-10-31 04:41:11: Song is not favorited
+2025-10-31 04:41:11: check_favourite - Received songTitle: 'Für Elise', username: 'Prashant_01'
+2025-10-31 04:41:11: Song is not favorited
+2025-10-31 04:41:31: check_favourite - Received songTitle: 'Blinding Lights', username: 'Prashant_01'
+2025-10-31 04:41:31: Song is not favorited
+2025-10-31 04:41:35: toggle_favourite - Received songTitle: 'Blinding Lights', username: 'Prashant_01'
+2025-10-31 04:41:35: Added to favourites: success
+2025-10-31 04:41:35: get_favourite_songs - Fetching favorites for username: 'Prashant_01'
+2025-10-31 04:41:35: Fetched 4 favorite songs
+2025-10-31 04:41:35: check_favourite - Received songTitle: 'Blinding Lights', username: 'Prashant_01'
+2025-10-31 04:41:35: Song is favorited
+2025-10-31 04:41:35: check_favourite - Received songTitle: 'Earned It', username: 'Prashant_01'
+2025-10-31 04:41:35: Song is favorited
+2025-10-31 04:41:35: check_favourite - Received songTitle: 'im closing my eyes', username: 'Prashant_01'
+2025-10-31 04:41:35: Song is favorited
+2025-10-31 04:41:35: check_favourite - Received songTitle: 'Renegade', username: 'Prashant_01'
+2025-10-31 04:41:35: Song is favorited
+2025-10-31 04:41:35: check_favourite - Received songTitle: 'Renegade', username: 'Prashant_01'
+2025-10-31 04:41:35: Song is favorited
+2025-10-31 04:41:35: check_favourite - Received songTitle: 'im closing my eyes', username: 'Prashant_01'
+2025-10-31 04:41:35: Song is favorited
+2025-10-31 04:41:35: check_favourite - Received songTitle: 'Earned It', username: 'Prashant_01'
+2025-10-31 04:41:35: Song is favorited
+2025-10-31 04:41:35: check_favourite - Received songTitle: 'West Coast', username: 'Prashant_01'
+2025-10-31 04:41:35: Song is not favorited
+2025-10-31 04:41:35: check_favourite - Received songTitle: 'Blinding Lights', username: 'Prashant_01'
+2025-10-31 04:41:35: Song is favorited
+2025-10-31 04:41:35: check_favourite - Received songTitle: 'Candy Necklace ', username: 'Prashant_01'
+2025-10-31 04:41:35: Song is not favorited
+2025-10-31 04:41:35: check_favourite - Received songTitle: 'Sicko Mode', username: 'Prashant_01'
+2025-10-31 04:41:35: Song is not favorited
+2025-10-31 04:41:35: check_favourite - Received songTitle: 'Cardigan', username: 'Prashant_01'
+2025-10-31 04:41:35: Song is not favorited
+2025-10-31 04:41:35: check_favourite - Received songTitle: 'Circles', username: 'Prashant_01'
+2025-10-31 04:41:35: Song is not favorited
+2025-10-31 04:41:35: check_favourite - Received songTitle: 'Love Story', username: 'Prashant_01'
+2025-10-31 04:41:35: Song is not favorited
+2025-10-31 04:41:35: check_favourite - Received songTitle: 'Für Elise', username: 'Prashant_01'
+2025-10-31 04:41:35: Song is not favorited
+2025-10-31 04:41:36: get_favourite_songs - Fetching favorites for username: 'Prashant_01'
+2025-10-31 04:41:36: Fetched 4 favorite songs
+2025-10-31 04:41:36: check_favourite - Received songTitle: 'Blinding Lights', username: 'Prashant_01'
+2025-10-31 04:41:36: Song is favorited
+2025-10-31 04:41:36: check_favourite - Received songTitle: 'Earned It', username: 'Prashant_01'
+2025-10-31 04:41:36: Song is favorited
+2025-10-31 04:41:36: check_favourite - Received songTitle: 'im closing my eyes', username: 'Prashant_01'
+2025-10-31 04:41:36: Song is favorited
+2025-10-31 04:41:36: check_favourite - Received songTitle: 'Renegade', username: 'Prashant_01'
+2025-10-31 04:41:36: Song is favorited
+2025-10-31 04:41:38: check_favourite - Received songTitle: 'Renegade', username: 'Prashant_01'
+2025-10-31 04:41:38: Song is favorited
+2025-10-31 04:41:38: check_favourite - Received songTitle: 'im closing my eyes', username: 'Prashant_01'
+2025-10-31 04:41:38: Song is favorited
+2025-10-31 04:41:38: check_favourite - Received songTitle: 'Earned It', username: 'Prashant_01'
+2025-10-31 04:41:38: Song is favorited
+2025-10-31 04:41:38: check_favourite - Received songTitle: 'West Coast', username: 'Prashant_01'
+2025-10-31 04:41:38: Song is not favorited
+2025-10-31 04:41:38: check_favourite - Received songTitle: 'Blinding Lights', username: 'Prashant_01'
+2025-10-31 04:41:38: Song is favorited
+2025-10-31 04:41:38: check_favourite - Received songTitle: 'Candy Necklace ', username: 'Prashant_01'
+2025-10-31 04:41:38: Song is not favorited
+2025-10-31 04:41:38: check_favourite - Received songTitle: 'Sicko Mode', username: 'Prashant_01'
+2025-10-31 04:41:38: Song is not favorited
+2025-10-31 04:41:38: check_favourite - Received songTitle: 'Cardigan', username: 'Prashant_01'
+2025-10-31 04:41:38: Song is not favorited
+2025-10-31 04:41:38: check_favourite - Received songTitle: 'Circles', username: 'Prashant_01'
+2025-10-31 04:41:38: Song is not favorited
+2025-10-31 04:41:38: check_favourite - Received songTitle: 'Love Story', username: 'Prashant_01'
+2025-10-31 04:41:38: Song is not favorited
+2025-10-31 04:41:38: check_favourite - Received songTitle: 'Für Elise', username: 'Prashant_01'
+2025-10-31 04:41:38: Song is not favorited
+2025-10-31 04:41:40: check_favourite - Received songTitle: 'Love Story', username: 'Prashant_01'
+2025-10-31 04:41:40: Song is not favorited
+2025-10-31 04:41:45: check_favourite - Received songTitle: 'Renegade', username: 'Prashant_01'
+2025-10-31 04:41:45: Song is favorited
+2025-10-31 04:41:45: check_favourite - Received songTitle: 'im closing my eyes', username: 'Prashant_01'
+2025-10-31 04:41:45: Song is favorited
+2025-10-31 04:41:45: check_favourite - Received songTitle: 'Earned It', username: 'Prashant_01'
+2025-10-31 04:41:45: Song is favorited
+2025-10-31 04:41:45: check_favourite - Received songTitle: 'West Coast', username: 'Prashant_01'
+2025-10-31 04:41:45: Song is not favorited
+2025-10-31 04:41:45: check_favourite - Received songTitle: 'Blinding Lights', username: 'Prashant_01'
+2025-10-31 04:41:45: Song is favorited
+2025-10-31 04:41:45: check_favourite - Received songTitle: 'Candy Necklace ', username: 'Prashant_01'
+2025-10-31 04:41:45: Song is not favorited
+2025-10-31 04:41:45: check_favourite - Received songTitle: 'Sicko Mode', username: 'Prashant_01'
+2025-10-31 04:41:45: Song is not favorited
+2025-10-31 04:41:45: check_favourite - Received songTitle: 'Cardigan', username: 'Prashant_01'
+2025-10-31 04:41:45: Song is not favorited
+2025-10-31 04:41:45: check_favourite - Received songTitle: 'Circles', username: 'Prashant_01'
+2025-10-31 04:41:45: Song is not favorited
+2025-10-31 04:41:45: check_favourite - Received songTitle: 'Love Story', username: 'Prashant_01'
+2025-10-31 04:41:45: Song is not favorited
+2025-10-31 04:41:45: check_favourite - Received songTitle: 'Für Elise', username: 'Prashant_01'
+2025-10-31 04:41:45: Song is not favorited

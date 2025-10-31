@@ -685,7 +685,7 @@
 
 .playbar.visible .songtime {
     opacity: 1;
-}
+} 
 
 .songcontrols {
     display: flex;
